@@ -14,5 +14,11 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(papper);;
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        papper = papper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(papper);
     }
 }
