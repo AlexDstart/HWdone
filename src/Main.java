@@ -42,6 +42,16 @@ public class Main {
         System.out.println("Задача 7");
         System.out.println("Разница в весе (1 способ) " + (boxerWeight2 - boxerWeight1));
         System.out.println("Разница в весе (2 способ) " + (boxerWeight2 % boxerWeight1));
+        System.out.println("Задача 8");
+        var totalWorkHours = 640;
+        var hoursPerDay = 8;
+        var totalWorkers = totalWorkHours / hoursPerDay;
+        System.out.println(totalWorkHours);
+        System.out.println(hoursPerDay);
+        System.out.println("Всего сотрудников в компании - " + totalWorkers + " человек ");
+        totalWorkers = totalWorkers + 94;
+        totalWorkHours = totalWorkers * hoursPerDay ;
+        System.out.println( " Если в компании работает " + totalWorkers + " человек, то всего " + totalWorkHours + " часов работы может быть поделено между сотрудниками ");
 
 
     }
