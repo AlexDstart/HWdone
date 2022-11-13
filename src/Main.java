@@ -37,7 +37,12 @@ public class Main {
         System.out.println("Задача 6");
         var boxerWeight1 = 78.2;
         var boxerWeight2 = 82.7;
-        System.out.println("Общий вес боксеров " + (boxerWeight2 + boxerWeight2));
+        System.out.println("Общий вес боксеров " + (boxerWeight2 + boxerWeight1));
         System.out.println("Разница в весе " + (boxerWeight2 - boxerWeight1));
+        System.out.println("Задача 7");
+        System.out.println("Разница в весе (1 способ) " + (boxerWeight2 - boxerWeight1));
+        System.out.println("Разница в весе (2 способ) " + (boxerWeight2 % boxerWeight1));
+
+
     }
 }
